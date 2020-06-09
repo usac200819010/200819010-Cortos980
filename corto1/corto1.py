@@ -11,7 +11,7 @@ print('''
 
 #carnet 200819010
 
-inicio = 11
+inicio = 10
 
 modulo = 0
 valor = True
@@ -22,7 +22,7 @@ while valor :
         for i in range(2, inicio+1):
             modulo = i%2 #si el modulo es 0 es par si es 1 es impar
             
-            if inicio == 11:
+            if inicio == 10:
                 valor = False        
 
             if modulo == 1:
